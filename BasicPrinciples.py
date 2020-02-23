@@ -9,3 +9,14 @@ branch
 Выведите количество различных объектов в этом списке.
 
 """
+ans = 0
+a=[]
+for obj in objects: # äîñòóïíàÿ ïåðåìåííàÿ objects
+    if obj not in a:
+        ans += 1
+        a.append(obj)
+
+print(ans)
+
+
+
