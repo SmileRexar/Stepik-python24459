@@ -11,7 +11,7 @@ branch
 """
 ans = 0
 a=[]
-for obj in objects: # äîñòóïíàÿ ïåðåìåííàÿ objects
+for obj in objects:
     if obj not in a:
         ans += 1
         a.append(obj)
