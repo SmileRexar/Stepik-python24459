@@ -1,0 +1,2 @@
+#Nice Report
+pytest PyTestFile.py -- junitxml=ReportFile
