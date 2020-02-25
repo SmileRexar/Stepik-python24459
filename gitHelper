@@ -1,0 +1,21 @@
+#Локальная репа
+git init
+
+#Копия репы
+git clone [url]
+
+#Уаленны сервер
+git clone username@host:/path/to/repository
+
+
+
+#Набор tryMana
+#Локалные репы
+git add [File]
+git add *
+git commit -m "Commit message"
+
+#Пушить на сервер
+git push origin master
+
+git push  <REMOTENAME> <TAGNAME> 
