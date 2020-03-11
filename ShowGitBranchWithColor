@@ -1,0 +1,19 @@
+#1. Добавить в ~/.bashrc функию подстветки
+#2. Ребутнуть bashrc 
+
+#1
+
+# Git Helper.
+# Show branch
+git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+
+#full  export PS1="\u@\[\033[32m\]\w\[\033[33m\]\$(git_branch)\[\033[00m\]\$ "
+export PS1="\u@\[\033[32m\]\w\[\033[33m\]\$(git_branch)\[\033[00m\]\$ "
+
+
+
+
+#2
+source ~/.bashrc
