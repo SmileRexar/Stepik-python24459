@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a78936e4-d0e0-4ab2-b77f-8e6367b1ab8b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PyTestChecker" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YwodZlkBS6TCwdxk0XpnovMlCA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FuncMapAndFilter.py" />
+  </component>
+  <component name="RunManager">
+    <configuration name="FuncMapAndFilter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyTestChecker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../FuncMapAndFilter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.FuncMapAndFilter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a78936e4-d0e0-4ab2-b77f-8e6367b1ab8b" name="Default Changelist" comment="" />
+      <created>1583863105807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583863105807</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="238" width="514" height="401" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583864204822">
+      <screen x="0" y="27" width="1024" height="741" />
+    </state>
+    <state x="451" y="238" width="514" height="401" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1024.741@0.27.1024.741" timestamp="1583864204822" />
+    <state x="472" y="138" width="424" height="491" key="FileChooserDialogImpl" timestamp="1583953661706">
+      <screen x="0" y="27" width="1024" height="741" />
+    </state>
+    <state x="472" y="138" width="424" height="491" key="FileChooserDialogImpl/0.27.1024.741@0.27.1024.741" timestamp="1583953661706" />
+    <state width="801" height="135" key="GridCell.Tab.0.bottom" timestamp="1583955315379">
+      <screen x="0" y="27" width="1024" height="741" />
+    </state>
+    <state width="801" height="135" key="GridCell.Tab.0.bottom/0.27.1024.741@0.27.1024.741" timestamp="1583955315379" />
+    <state width="801" height="135" key="GridCell.Tab.0.center" timestamp="1583955315378">
+      <screen x="0" y="27" width="1024" height="741" />
+    </state>
+    <state width="801" height="135" key="GridCell.Tab.0.center/0.27.1024.741@0.27.1024.741" timestamp="1583955315378" />
+    <state width="801" height="135" key="GridCell.Tab.0.left" timestamp="1583955315378">
+      <screen x="0" y="27" width="1024" height="741" />
+    </state>
+    <state width="801" height="135" key="GridCell.Tab.0.left/0.27.1024.741@0.27.1024.741" timestamp="1583955315378" />
+    <state width="801" height="135" key="GridCell.Tab.0.right" timestamp="1583955315379">
+      <screen x="0" y="27" width="1024" height="741" />
+    </state>
+    <state width="801" height="135" key="GridCell.Tab.0.right/0.27.1024.741@0.27.1024.741" timestamp="1583955315379" />
+  </component>
+</project>
