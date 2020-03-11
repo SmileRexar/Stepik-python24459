@@ -20,7 +20,16 @@ print("Сумма {0} + {1} = {2}".format(first_arg, second_arg, first_arg+secon
 
 
 #Пример фильтра
+# Example use mamp
 filter_evens=map(int, input('Список на фильтр :').split())
+
+'''
+Equals with generator function and list Comprehensions
+filter_evens = (int(i) for i in input('Список на фильтр :').split())
+'''
+
+
+
 
 def even(x):
     if(x%2==0):
