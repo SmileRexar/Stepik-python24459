@@ -19,3 +19,7 @@ git commit -m "Commit message"
 git push origin master
 
 git push  <REMOTENAME> <TAGNAME> 
+
+
+#Now use following command to list all branches on local and all remote repositories
+git branch -a
