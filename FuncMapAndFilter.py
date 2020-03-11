@@ -30,3 +30,4 @@ def even(x):
 evens=filter(even, filter_evens)
 for _ in evens:
     print("Filtered element from list: {}".format(_))
+    
