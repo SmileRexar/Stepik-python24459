@@ -99,7 +99,7 @@ Sample Output 4:
 5
 """
 
-# 
+#
 s = input()
 t = input()
 
@@ -115,3 +115,20 @@ while True:
         break
 
 print(i)
+
+'''
+s = input()
+t = input()
+ans = 0
+for i in range(len(s)):
+    if s[i:].startswith(t):
+        ans += 1
+print(ans)
+
+
+s = input()
+t = input()
+print(sum(1 for i in range(len(s)) if s.startswith(t, i)))
+
+
+'''
