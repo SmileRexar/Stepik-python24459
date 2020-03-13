@@ -6,15 +6,15 @@ debug_mode=False
 
 def WeatherCheaker(Sity):
     api = 'http://api.openweathermap.org/data/2.5/weather'
-    f = open('Data_openWeather.json', 'r')
-    request_json=json.loads(f.read())
+    with open('Data_openWeather.json', 'r') as f:
+        request_json = json.loads(f.read())
 
     # params= {
     #     'q':Sity,
     #     'appid':'11c0d3dc6093f7442898ee49d2430d20',
     #     'units':'metric'
     # }
-    request_json['q']=Sity
+    request_json['q'] = 'Moscow'
 
     res = requests.get(api, request_json)
 
