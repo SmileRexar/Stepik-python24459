@@ -4,7 +4,7 @@ import json
 #Disable debug information for request
 debug_mode=False
 
-def WeatherCheaker(Sity):
+def WeatherCheaker(city):
     api = 'http://api.openweathermap.org/data/2.5/weather'
     with open('Data_openWeather.json', 'r') as f:
         request_json = json.loads(f.read())
@@ -14,7 +14,7 @@ def WeatherCheaker(Sity):
     #     'appid':'11c0d3dc6093f7442898ee49d2430d20',
     #     'units':'metric'
     # }
-    request_json['q'] = 'Moscow'
+    request_json['q'] = city
 
     res = requests.get(api, request_json)
 
