@@ -21,6 +21,7 @@ j = json.loads(r.text)
 token = j["token"]
 # создать заголовок содераи Header
 headers = {"X-Xapp-Token": token}
+list_artists = []
 
 with open('dataset_24476_4.txt', 'r', encoding='utf-8') as f:
     for line in f:
@@ -29,4 +30,9 @@ with open('dataset_24476_4.txt', 'r', encoding='utf-8') as f:
 
         # разбор ответа сервера
         j = json.loads(r.text)
-        print(j)
+        list_artists.append({'name': j['sortable_name'], 'birthday': j['birthday']})
+        # print(j)
+
+# list_artists.sort('birthday')
+for artist in sorted(list_artists, key=lambda x: (x['birthday'], x['name'])):
+    print(artist['name'])
